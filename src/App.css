@@ -1,0 +1,39 @@
+* {
+  margin : 0;
+  padding: 0;
+}
+
+.App {
+  padding: 2rem;
+}
+
+.chartContainer {
+  width: 50%; 
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.chart {
+  height : 100vh !important;
+}
+
+.pageContainer {
+  display: flex;
+}
+
+@media only screen and (max-width : 1020px) {
+  .chartContainer {
+    width: 100%; 
+  }
+  .pageContainer {
+    flex-direction: column;
+  }
+  .chart {
+    height: 50vh !important;
+  }
+
+  
+.App {
+  padding: 0rem;
+}
+  
+}
